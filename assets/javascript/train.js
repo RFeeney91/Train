@@ -19,3 +19,14 @@ var tFrequency = 3;
     // Next Train
     var nextTrain = moment().add(tMinutesTillTrain, "minutes");
     console.log("ARRIVAL TIME: " + moment(nextTrain).format("hh:mm"));
+
+
+var config = {
+    apiKey: "AIzaSyC4propTX72dgtt8RZ8N1qUmrW1zgllraM",
+    authDomain: "train-e6973.firebaseapp.com",
+    databaseURL: "https://train-e6973.firebaseio.com",
+    projectId: "train-e6973",
+    storageBucket: "train-e6973.appspot.com",
+    messagingSenderId: "30033833736"
+  };
+  firebase.initializeApp(config);
