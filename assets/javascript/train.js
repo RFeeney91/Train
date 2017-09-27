@@ -30,3 +30,4 @@ var config = {
     messagingSenderId: "30033833736"
   };
   firebase.initializeApp(config);
+/* need to get the firebase to record the data. then update the table to have the new train, the logic needs to be able tocalulate when the trains will arrive
